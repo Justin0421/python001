@@ -67,5 +67,7 @@ if __name__ == '__main__':
         tax.append(t)
         #output result
         final_income = int(income)*(1-s_insur) - t
-        print(w_nb[i],' : ', format(final_income, ".2f"))
+        print(w_nb[i],end ='')
+        print(':',end = '')
+        print(format(final_income, ".2f"))
         i = i + 1
